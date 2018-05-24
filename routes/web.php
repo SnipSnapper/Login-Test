@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('sample_simple');
+    return view('Home');
+});
+
+Route::get('/MemberPage', function(){
+
+	return view("MemberPage");
 });
